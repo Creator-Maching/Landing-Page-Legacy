@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url(./imagens/dominária.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 170vh;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    padding: 20px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+header{
+    background-color: red;
+    color: rgb(245, 245, 11);
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.video{
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.beneficios{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 0.2px #333;
+}
+
+.avaliacao{
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 800px;
+    text-align: center;
+}
+
+.avalia-titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+.maria{
+    text-align: center;
+    padding: 10px;
+}
+
+.venda{
+    text-align: center;
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: blueviolet;
+    font-size: 30px;
+    transition: transform 0.2s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container {
+        flex-direction: column; 
+        margin-left: 0;
+    }
+
+    .img {
+        width: 100%; 
+    }
+
+    .avaliacao {
+        margin-left: 0; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
