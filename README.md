@@ -40,21 +40,6 @@ A imagem principal e o conteúdo textual se adaptam, garantindo boa legibilidade
 
 ---
 
-
-## 💻 Estrutura do Projeto
-
-Landing-Page-Legacy/
-│
-├─ index.html # Página principal
-├─ css/
-│ └─ style.css # Estilos da landing page
-├─ imagens/
-│ └─ image.webp # Imagem do PlayStation 5
-└─ main.js # (opcional) scripts JavaScript
-
-
----
-
 ## 🔗 Link para Visualização
 
 [Landing Page Legacy – Visualizar Online](https://creator-maching.github.io/Landing-Page-Legacy/)
